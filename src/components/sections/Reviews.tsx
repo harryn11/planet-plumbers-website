@@ -78,7 +78,7 @@ export const Reviews: React.FC = () => {
               <Star key={i} className="w-5 h-5 fill-current" />
             ))}
           </div>
-          <span className="text-stone-500 font-normal ml-2">Based on 142 reviews</span>
+          <span className="text-stone-500 font-normal ml-2">Based on authentic customer reviews</span>
         </div>
       </div>
 

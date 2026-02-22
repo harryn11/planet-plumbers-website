@@ -13,20 +13,20 @@
   --color-stone-200: #E7E5E4;
   --color-stone-800: #292524;
 
-  /* Planet Plumbers strictly-blue brand */
-  --color-brand-primary-50: #eff6ff;
-  --color-brand-primary-100: #dbeafe;
-  --color-brand-primary-200: #bfdbfe;
-  --color-brand-primary-300: #93c5fd;
-  --color-brand-primary-400: #60a5fa;
-  --color-brand-primary-500: #3b82f6;
-  --color-brand-primary-600: #2563eb;
-  --color-brand-primary-700: #1d4ed8;
-  --color-brand-primary-800: #1e40af;
-  --color-brand-primary-900: #1e3a8a;
-  --color-brand-primary-950: #172554;
+  /* Planet Plumbers exactly dark-blue brand palette matched to logo (#172A6E) */
+  --color-brand-primary-50: #eef1f8;
+  --color-brand-primary-100: #d6def1;
+  --color-brand-primary-200: #b5c3e7;
+  --color-brand-primary-300: #8c9fdb;
+  --color-brand-primary-400: #6a7bcc;
+  --color-brand-primary-500: #4f5cb1;
+  --color-brand-primary-600: #3f479a;
+  --color-brand-primary-700: #343b7f;
+  --color-brand-primary-800: #2d3368;
+  --color-brand-primary-900: #172a6e;
+  --color-brand-primary-950: #101940;
 
-  --color-brand-primary: #2563eb;
+  --color-brand-primary: #172a6e;
   /* Tailwind v4 doesn't dynamically resolve var() correctly in @theme */
   --color-brand-secondary: #0ea5e9;
 }

@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
     <footer className="relative z-10 bg-stone-900 text-stone-400 py-24 border-t border-stone-800">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="space-y-6">
-          <h3 className="text-2xl font-bold text-white tracking-tight">Planet<span className="text-emerald-500">Plumbers</span></h3>
+          <img src="https://planetplumbers.com/wp-content/uploads/2021/04/planet-plumbers-logo.png" alt="Planet Plumbers Logo" className="h-12 object-contain brightness-0 invert opacity-90" />
           <p className="text-sm leading-relaxed">
             Reinventing home heating with sustainable, efficient, and quiet technology.
           </p>

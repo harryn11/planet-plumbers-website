@@ -16,8 +16,8 @@ export const Navbar: React.FC = () => {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/95 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6 border-b border-transparent'}`}>
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative flex items-center justify-between">
-        <a href="/" className="text-2xl font-bold tracking-tight text-stone-900">
-          Planet<span className="text-emerald-600">Plumbers</span>
+        <a href="/" className="flex items-center gap-2">
+          <img src="https://planetplumbers.com/wp-content/uploads/2021/04/planet-plumbers-logo.png" alt="Planet Plumbers Logo" className="h-10 object-contain" />
         </a>
 
         {/* Absolute Centered Links */}
